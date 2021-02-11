@@ -14,6 +14,7 @@ class ColoredRect extends React.Component {
   render() {
     return (
       <Rect
+      draggable={true}
         x={20}
         y={20}
         width={50}
